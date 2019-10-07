@@ -56,6 +56,7 @@ def reduce_to_all_true(source_array)
   while i < source_array.length do 
     a[i] = source.array[i] 
     if a[i] = true
+      
   
   
   
