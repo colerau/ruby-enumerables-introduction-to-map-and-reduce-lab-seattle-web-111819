@@ -74,6 +74,8 @@ def reduce_to_any_true(source_array)
       count += 1 
     end
     i += 1
+  if count > 0
+  
   end
 end    
 
