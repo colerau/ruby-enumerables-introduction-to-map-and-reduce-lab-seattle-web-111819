@@ -57,7 +57,7 @@ def reduce_to_all_true(source_array)
     if source_array[i]
       count += 1
     else source_array[i]
-      count -= 3
+      return false
     end
     i += 1
   end 
