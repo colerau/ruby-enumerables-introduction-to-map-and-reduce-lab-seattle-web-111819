@@ -52,6 +52,7 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0 
+  a = []
   while i < source_array.length do 
     
   
