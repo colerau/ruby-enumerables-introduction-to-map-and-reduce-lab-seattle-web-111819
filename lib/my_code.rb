@@ -57,6 +57,7 @@ def reduce_to_all_true(source_array)
     a[i] = source.array[i] 
     if a[i] = true
       i += 1
+      if i == source_array.length - 1
     else
       return false 
   
