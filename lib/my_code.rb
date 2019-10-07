@@ -79,6 +79,4 @@ def reduce_to_any_true(source_array)
   elsif count <= 0 
     return false
   end
-end    
-
-
+end
