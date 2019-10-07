@@ -57,7 +57,7 @@ def reduce_to_all_true(source_array)
     if source_array[i] = true
       count += 1
     end 
-    elsif source_array[i] = false
+    if source_array[i] = false
       count * -1
     end
     i = i + 1
