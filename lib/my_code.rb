@@ -63,7 +63,7 @@ def reduce_to_all_true(source_array)
   end 
   if count >= 0
     return true
-  elsif count < 0 
+  else  
     return false
   end 
 end 
