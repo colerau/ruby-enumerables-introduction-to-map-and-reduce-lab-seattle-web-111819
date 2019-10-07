@@ -60,7 +60,7 @@ def reduce_to_all_true(source_array)
     elsif source_array[i] = false
       count * -1
     end
-    i += 1
+    i = i + 1
   end 
   if count >= 0
     return true 
