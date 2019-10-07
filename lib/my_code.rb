@@ -55,7 +55,8 @@ def reduce_to_all_true(source_array)
   count = 0 
   while i < source_array.length do 
     if source_array[i] = true
-      count += 1 
+      count += 1
+      i += 1
     elsif source_array[i] = false
       count * -1
     i += 1
