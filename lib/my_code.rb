@@ -76,7 +76,7 @@ def reduce_to_any_true(source_array)
     i += 1
   if count > 0 
     return true
-  if count <= 0 
+  elsif count <= 0 
     return false
   end
 end    
