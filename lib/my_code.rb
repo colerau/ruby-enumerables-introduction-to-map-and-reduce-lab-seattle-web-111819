@@ -62,9 +62,9 @@ def reduce_to_all_true(source_array)
     i = i + 1
   end 
   if count >= 0
-    return truthy 
+    return truth
   elsif count < 0 
-    return falsy
+    return false
   end 
 end 
 
